@@ -1,0 +1,193 @@
+Oct 08, 2019 5:40:10 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: MyWIn10Laptop
+Oct 08, 2019 5:40:10 PM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+Oct 08, 2019 5:40:10 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3.20
+Oct 08, 2019 5:40:10 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\GitRepo\MyAliCloudPipeLine\remoting as a remoting work directory
+Oct 08, 2019 5:40:11 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://10.75.19.24:8080/]
+Oct 08, 2019 5:40:11 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+Oct 08, 2019 5:40:11 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.75.19.24
+  Agent port:    9812
+  Identity:      3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 08, 2019 5:40:11 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Oct 08, 2019 5:40:11 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 08, 2019 5:40:11 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 08, 2019 5:40:17 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 08, 2019 5:40:19 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Oct 09, 2019 12:51:20 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Oct 09, 2019 12:51:33 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.NoRouteToHostException No route to host: connect
+Oct 09, 2019 12:51:48 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+Oct 09, 2019 9:56:28 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.NoRouteToHostException No route to host: connect
+Oct 09, 2019 9:56:39 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.NoRouteToHostException No route to host: connect
+Oct 09, 2019 9:56:49 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.NoRouteToHostException No route to host: connect
+Oct 09, 2019 9:57:04 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.SocketTimeoutException connect timed out
+Oct 09, 2019 9:57:14 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://10.75.19.24:8080/]
+Oct 09, 2019 9:57:15 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+Oct 09, 2019 9:57:15 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.75.19.24
+  Agent port:    9812
+  Identity:      3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 09, 2019 9:57:15 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Oct 09, 2019 9:57:15 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 09, 2019 9:57:15 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 09, 2019 9:57:20 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 09, 2019 9:57:20 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Oct 09, 2019 10:02:12 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Oct 09, 2019 10:02:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://10.75.19.24:8080/]
+Oct 09, 2019 10:02:22 AM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, JNLP-connect, Ping, JNLP2-connect, JNLP3-connect]
+Oct 09, 2019 10:02:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.75.19.24
+  Agent port:    9812
+  Identity:      3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 09, 2019 10:02:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Oct 09, 2019 10:02:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 09, 2019 10:02:22 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 09, 2019 10:02:28 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 3d:50:4b:7e:76:3f:59:47:50:86:f2:20:9b:0c:3a:81
+Oct 09, 2019 10:02:28 AM org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer onRecv
+INFO: [JNLP4-connect connection to 10.75.19.24/10.75.19.24:9812] Local headers refused by remote: MyWIn10Laptop is already connected to this master. Rejecting this connection.
+Oct 09, 2019 10:02:28 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: MyWIn10Laptop is already connected to this master. Rejecting this connection.
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: MyWIn10Laptop is already connected to this master. Rejecting this connection.
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.newAbortCause(ConnectionHeadersFilterLayer.java:378)
+	at org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.onRecvClosed(ConnectionHeadersFilterLayer.java:433)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:832)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:287)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:172)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:832)
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.access$1500(BIONetworkLayer.java:48)
+	at org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader.run(BIONetworkLayer.java:247)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: java.nio.channels.ClosedChannelException
+		... 7 more
+
+Oct 09, 2019 10:02:28 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 09, 2019 10:02:59 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812 (retrying:2)
+java.io.IOException: Failed to connect to 10.75.19.24:9812
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:242)
+	at hudson.remoting.Engine.connect(Engine.java:686)
+	at hudson.remoting.Engine.innerRun(Engine.java:559)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.Net.connect(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:203)
+	... 3 more
+
+Oct 09, 2019 10:02:59 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Server reports protocol JNLP4-plaintext not supported, skipping
+Oct 09, 2019 10:02:59 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP3-connect
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP3-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: JNLP3-connect: Master rejected connection: 
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: JNLP3-connect: Master rejected connection: 
+	at org.jenkinsci.remoting.engine.JnlpProtocol3Handler.sendHandshake(JnlpProtocol3Handler.java:243)
+	at org.jenkinsci.remoting.engine.JnlpProtocol3Handler.sendHandshake(JnlpProtocol3Handler.java:127)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:162)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:158)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP2-connect
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP2-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Server didn't accept the handshake: 
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Server didn't accept the handshake: 
+	at org.jenkinsci.remoting.engine.JnlpProtocol2Handler.sendHandshake(JnlpProtocol2Handler.java:138)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:162)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:158)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 10.75.19.24:9812
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP-connect
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Server didn't accept the handshake: 
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at hudson.remoting.Engine.innerRun(Engine.java:609)
+	at hudson.remoting.Engine.run(Engine.java:469)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Server didn't accept the handshake: 
+	at org.jenkinsci.remoting.engine.JnlpProtocol1Handler.sendHandshake(JnlpProtocol1Handler.java:123)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:162)
+	at org.jenkinsci.remoting.engine.LegacyJnlpProtocolHandler$2.call(LegacyJnlpProtocolHandler.java:158)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+Oct 09, 2019 10:03:00 AM hudson.remoting.jnlp.Main$CuiListener error
+SEVERE: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:670)
+	at hudson.remoting.Engine.innerRun(Engine.java:634)
+	at hudson.remoting.Engine.run(Engine.java:469)
+

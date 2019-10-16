@@ -158,8 +158,16 @@ $time=(Get-Date).ToUniversalTime().tostring('yyyy-MM-ddTHH:mm:ssZ')
 $r=New-Guid
 $AccessKeyID='LTAI4FrLvwBAw4VrybhKEELr'
 [Reflection.Assembly]::LoadWithPartialName("System.Web") | Out-Null
-$DisOrderGetParameter=@{'AccessKeyId'='LTAI4FrLvwBAw4VrybhKEELr';'Action'='Describeimages';'Format'='JSON';'PageSize'='10';'RegionId'='cn-hangzhou';'Version'='2014-05-26';'SignatureMethod'='HMAC-SHA1';'SignatureNonce'=$r;'SignatureVersion'='1.0';'TimeStamp'=$time}
+#$DisOrderGetParameter=@{'AccessKeyId'='LTAI4FrLvwBAw4VrybhKEELr';'Action'='Describeimages';'Format'='JSON';'PageSize'='10';'RegionId'='cn-hangzhou';'Version'='2014-05-26';'SignatureMethod'='HMAC-SHA1';'SignatureNonce'=$r;'SignatureVersion'='1.0';'TimeStamp'=$time}
 #$DisOrderGetParameter=@{'AccessKeyId'='LTAI4FrLvwBAw4VrybhKEELr';'Action'='Describeimages';'Format'='JSON';'PageSize'='10';'RegionId'='cn-hangzhou';'Version'='2014-05-26';'SignatureMethod'='HMAC-SHA1';'SignatureNonce'='ffb3e080-e353-11e9-bb66-8c164511ab4d';'SignatureVersion'='1.0';'TimeStamp'='2019-09-30T07:29:12Z'}
+$BucketName='vm-image-test'
+$ImgName='win2016.vhd'
+$KeyName='win2016.vhd'
+$Arch='x86_64'
+$Platform='Windows Server 2016'
+$DisOrderGetParameter=@{'Action'='ImportImage';'RegionId'='cn-hangzhou';'DiskDeviceMapping.1.Format'='VHD';'DiskDeviceMapping.1.OSSBucket'=$BucketName;'DiskDeviceMapping.1.OSSObject'=$KeyName;'DiskDeviceMapping.1.DiskImageSize'='80';'ImageName'=$ImgName; `
+'Description'='';'Architecture'=$Arch;Platform=$Platform; `
+'AccessKeyId'='LTAI4FrLvwBAw4VrybhKEELr';'Format'='JSON';'PageSize'='10';'Version'='2014-05-26';'SignatureMethod'='HMAC-SHA1';'SignatureNonce'=$r;'SignatureVersion'='1.0';'TimeStamp'=$time}
 
 $GetParameter=$DisOrderGetParameter.GetEnumerator()|Sort-Object -Property name
 $BaseUrl = 'https://ecs.aliyuncs.com/'
@@ -181,10 +189,10 @@ $UpperUrlEscapeQueryString
 $sha = [System.Security.Cryptography.KeyedHashAlgorithm]::Create("HMACSHA1")
 $sha.Key = [System.Text.Encoding]::UTF8.Getbytes($secret)
 $singnature = [Convert]::Tobase64String($sha.ComputeHash([System.Text.Encoding]::UTF8.Getbytes(${UpperUrlEscapeQueryString})))
-$singnature
+#$singnature
 
 
 $DisOrderGetParameter.add('Signature',$singnature)
-$DisOrderGetParameter
-Get-WebResponse -BaseUrl $BaseUrl -GetParameter $DisOrderGetParameter
+#$DisOrderGetParameter
+$r=Get-WebResponse -BaseUrl $BaseUrl -GetParameter $DisOrderGetParameter
 
